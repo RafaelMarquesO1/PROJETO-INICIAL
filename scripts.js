@@ -17,8 +17,9 @@ function alertar(event){
         // alert("Você clicou no botão!!!" + event);
         // var numero = 6;
         //  resultado = numero % 2;
-       // if(resultado == 0){
-                saida.innerText = "Nome: " + nome.value + "\nEmail: " + email.value + "\nTelefone: " + telefone.value + "\nCEP: " + CEP.value + "\nLogradouro: " + Logradouro.value + "\nNúmero da casa: " + numero.value + "\nComplemento";
+        // if(resultado == 0){
+                
+                saida.innerText = "Nome: " + nome.value + "\nEmail: " + email.value + "\nTelefone: " + telefone.value + "\nCEP: " + CEP.value + "\nLogradouro: " + Logradouro.value + "\nNúmero da casa: " + numero.value + "\nComplemento: " + complemento.value + "\nCidade: " + cidade.value + "\nEstado: " + estado.value;
 }
 
 
